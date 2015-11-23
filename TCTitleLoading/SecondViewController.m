@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Skip title loading for this page
-    [TCTitleLoadingManager SkipTitleLoadingForClass:[self class]];
+    [TCTitleLoadingManager skipTitleLoadingForClass:[self class]];
 }
 
 - (void)didReceiveMemoryWarning {

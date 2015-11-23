@@ -25,7 +25,7 @@
     return sharedInstance;
 }
 
-+ (void)SkipTitleLoadingForClass:(nonnull Class)classToSkip {
++ (void)skipTitleLoadingForClass:(nonnull Class)classToSkip {
     if (![TCTitleLoadingManager manager].skipSet) {
         [TCTitleLoadingManager manager].skipSet = [NSMutableSet set];
     }

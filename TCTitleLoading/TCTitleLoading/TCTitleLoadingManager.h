@@ -16,7 +16,7 @@
  *
  *  @param classToSkip the class to skip title loading
  */
-+ (void)SkipTitleLoadingForClass:(nonnull Class)classToSkip;
++ (void)skipTitleLoadingForClass:(nonnull Class)classToSkip;
 
 /**
  *  Check is the class is in the skip list
