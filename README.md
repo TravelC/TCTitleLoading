@@ -2,6 +2,7 @@
 This is a loading in the bottom of navigation bar title area.
 This project is inspired by [XHLoadingNavigationItemTitleView](https://github.com/JackTeam/XHLoadingNavigationItemTitleView)
 
+![](http://travelchu.com/ImagesForProjects/TCTitleLoading.png)
 
 ##How To Get Started
 
