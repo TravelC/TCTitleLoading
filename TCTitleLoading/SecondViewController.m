@@ -7,8 +7,11 @@
 //
 
 #import "SecondViewController.h"
+#import "UIViewController+TCTitleLoading.h"
+#import "TCTitleLoadingManager.h"
 
 @interface SecondViewController ()
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *loadingView;
 
 @end
 
@@ -16,12 +19,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Skip title loading for this page
+    [TCTitleLoadingManager SkipTitleLoadingForClass:[self class]];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)startLoading:(id)sender {
+    [self startAnimationTitle];
+    [self.loadingView startAnimating];
+}
+
+- (IBAction)stopLoading:(id)sender {
+    [self stopAnimationTitle];
+    [self.loadingView stopAnimating];
 }
 
 @end

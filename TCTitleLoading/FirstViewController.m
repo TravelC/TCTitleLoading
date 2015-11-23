@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "UIViewController+TCTitleLoading.h"
 
 @interface FirstViewController ()
 
@@ -22,6 +23,15 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (IBAction)startLoading:(id)sender {
+    [self startAnimationTitle];
+}
+
+- (IBAction)stopLoading:(id)sender {
+    [self stopAnimationTitle];
 }
 
 @end

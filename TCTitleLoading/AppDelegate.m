@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TCTitleLoadingManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    //Set custom color for dots
+    [TCTitleLoadingManager setDotColor:[UIColor orangeColor]];
     return YES;
 }
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED05CB2D1C02F4B000FA8CC7 /* TYDotIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05CB2A1C02F4B000FA8CC7 /* TYDotIndicatorView.m */; };
+		ED05CB311C02F4E300FA8CC7 /* UIViewController+TCTitleLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05CB301C02F4E300FA8CC7 /* UIViewController+TCTitleLoading.m */; };
+		ED05CB341C02F5A600FA8CC7 /* TCTitleLoadingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05CB331C02F5A600FA8CC7 /* TCTitleLoadingManager.m */; };
 		ED5B90561C02F12600C491F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5B90551C02F12600C491F8 /* main.m */; };
 		ED5B90591C02F12600C491F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5B90581C02F12600C491F8 /* AppDelegate.m */; };
 		ED5B905C1C02F12600C491F8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5B905B1C02F12600C491F8 /* FirstViewController.m */; };
@@ -17,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED05CB291C02F4B000FA8CC7 /* TYDotIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDotIndicatorView.h; sourceTree = "<group>"; };
+		ED05CB2A1C02F4B000FA8CC7 /* TYDotIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDotIndicatorView.m; sourceTree = "<group>"; };
+		ED05CB2F1C02F4E300FA8CC7 /* UIViewController+TCTitleLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TCTitleLoading.h"; sourceTree = "<group>"; };
+		ED05CB301C02F4E300FA8CC7 /* UIViewController+TCTitleLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TCTitleLoading.m"; sourceTree = "<group>"; };
+		ED05CB321C02F5A600FA8CC7 /* TCTitleLoadingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTitleLoadingManager.h; sourceTree = "<group>"; };
+		ED05CB331C02F5A600FA8CC7 /* TCTitleLoadingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTitleLoadingManager.m; sourceTree = "<group>"; };
 		ED5B90511C02F12600C491F8 /* TCTitleLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCTitleLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5B90551C02F12600C491F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED5B90571C02F12600C491F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +51,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED05CB281C02F4B000FA8CC7 /* TCTitleLoading */ = {
+			isa = PBXGroup;
+			children = (
+				ED05CB291C02F4B000FA8CC7 /* TYDotIndicatorView.h */,
+				ED05CB2A1C02F4B000FA8CC7 /* TYDotIndicatorView.m */,
+				ED05CB2F1C02F4E300FA8CC7 /* UIViewController+TCTitleLoading.h */,
+				ED05CB301C02F4E300FA8CC7 /* UIViewController+TCTitleLoading.m */,
+				ED05CB321C02F5A600FA8CC7 /* TCTitleLoadingManager.h */,
+				ED05CB331C02F5A600FA8CC7 /* TCTitleLoadingManager.m */,
+			);
+			path = TCTitleLoading;
+			sourceTree = "<group>";
+		};
 		ED5B90481C02F12500C491F8 = {
 			isa = PBXGroup;
 			children = (
@@ -63,11 +85,12 @@
 			children = (
 				ED5B90571C02F12600C491F8 /* AppDelegate.h */,
 				ED5B90581C02F12600C491F8 /* AppDelegate.m */,
+				ED5B90601C02F12600C491F8 /* Main.storyboard */,
+				ED05CB281C02F4B000FA8CC7 /* TCTitleLoading */,
 				ED5B905A1C02F12600C491F8 /* FirstViewController.h */,
 				ED5B905B1C02F12600C491F8 /* FirstViewController.m */,
 				ED5B905D1C02F12600C491F8 /* SecondViewController.h */,
 				ED5B905E1C02F12600C491F8 /* SecondViewController.m */,
-				ED5B90601C02F12600C491F8 /* Main.storyboard */,
 				ED5B90631C02F12600C491F8 /* Assets.xcassets */,
 				ED5B90651C02F12600C491F8 /* LaunchScreen.storyboard */,
 				ED5B90681C02F12600C491F8 /* Info.plist */,
@@ -155,8 +178,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED5B905F1C02F12600C491F8 /* SecondViewController.m in Sources */,
+				ED05CB311C02F4E300FA8CC7 /* UIViewController+TCTitleLoading.m in Sources */,
+				ED05CB341C02F5A600FA8CC7 /* TCTitleLoadingManager.m in Sources */,
 				ED5B90591C02F12600C491F8 /* AppDelegate.m in Sources */,
 				ED5B905C1C02F12600C491F8 /* FirstViewController.m in Sources */,
+				ED05CB2D1C02F4B000FA8CC7 /* TYDotIndicatorView.m in Sources */,
 				ED5B90561C02F12600C491F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,9 +294,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TCTitleLoading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.travelchu.TCTitleLoading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -279,9 +307,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TCTitleLoading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.travelchu.TCTitleLoading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -304,6 +334,7 @@
 				ED5B906D1C02F12600C491F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
