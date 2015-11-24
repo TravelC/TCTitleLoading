@@ -4,10 +4,19 @@ This project is inspired by [XHLoadingNavigationItemTitleView](https://github.co
 
 ![](http://travelchu.com/ImagesForProjects/TCTitleLoading.png)
 
+Installation
+==========================
+
+#### Cocoapod Method:-
+
+`pod 'TCTitleLoading', '~> 0.0.1'`
+
+#### Source Code Method:-
+Add files in folder TCTitleLoading to your project.
+
 ##How To Get Started
 
-1. Add files in folder TCTitleLoading to your project.
-2. In your Appdelegate.m, import TCTitleLoadingManager and set custom color, you can skip this step if you want to use the default black color:
+1. In your Appdelegate.m, import TCTitleLoadingManager and set custom color, you can skip this step if you want to use the default black color:
 
 ```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -19,18 +28,18 @@ This project is inspired by [XHLoadingNavigationItemTitleView](https://github.co
 }
 ```
 
-3.Start the loading by calling method startAnimationTitle in your view controller:
+2.Start the loading by calling method startAnimationTitle in your view controller:
 
 ```
 [self startAnimationTitle];
 ```
 
-4.Start the loading by calling method startAnimationTitle in your view controller:
+3.Start the loading by calling method startAnimationTitle in your view controller:
 
 ```
 [self stopAnimationTitle];
 ```
-5.If you want to skip the title loading for some pages, just tell the manager:
+4.If you want to skip the title loading for some pages, just tell the manager:
 
 ```
 [TCTitleLoadingManager SkipTitleLoadingForClass:[self class]];
