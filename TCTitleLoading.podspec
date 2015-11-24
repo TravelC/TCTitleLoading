@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     Make you navigationbar has a loading view under title. You can custom the loading dots color and appoint which page to skip.
                    DESC
 
-  s.homepage     = "http://www.travelchu.com/2015/11/23/tctitleloading/"
+  s.homepage     = "https://github.com/TravelC/TCTitleLoading"
   s.screenshots  = "http://travelchu.com/ImagesForProjects/TCTitleLoading.png"
 
   s.license      = "MIT"
@@ -20,13 +20,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/TravelC/TCTitleLoading.git", :tag => "0.0.1" }
 
-
-<<<<<<< HEAD
-  s.source_files  = "TCTitleLoading", "TCTitleLoading/TCTitleLoading/TCTitleLoading/**/*.{h,m}"
-
-=======
   s.source_files  = "TCTitleLoading/TCTitleLoading/**/*.{h,m}"
->>>>>>> 0.0.1
   s.public_header_files = "TCTitleLoading/TCTitleLoading/**/*.h"
 
    s.frameworks = "Foundation", "UIKit"
