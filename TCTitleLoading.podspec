@@ -21,8 +21,12 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/TravelC/TCTitleLoading.git", :tag => "0.0.1" }
 
 
+<<<<<<< HEAD
   s.source_files  = "TCTitleLoading", "TCTitleLoading/TCTitleLoading/TCTitleLoading/**/*.{h,m}"
 
+=======
+  s.source_files  = "TCTitleLoading/TCTitleLoading/**/*.{h,m}"
+>>>>>>> 0.0.1
   s.public_header_files = "TCTitleLoading/TCTitleLoading/**/*.h"
 
    s.frameworks = "Foundation", "UIKit"
