@@ -17,6 +17,7 @@
 		ED5B90621C02F12600C491F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5B90601C02F12600C491F8 /* Main.storyboard */; };
 		ED5B90641C02F12600C491F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5B90631C02F12600C491F8 /* Assets.xcassets */; };
 		ED5B90671C02F12600C491F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5B90651C02F12600C491F8 /* LaunchScreen.storyboard */; };
+		ED9DCED51C1E8EC800718C43 /* UINavigationController+TCTitleLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9DCED41C1E8EC800718C43 /* UINavigationController+TCTitleLoading.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		ED5B90631C02F12600C491F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED5B90661C02F12600C491F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED5B90681C02F12600C491F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9DCED31C1E8EC800718C43 /* UINavigationController+TCTitleLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TCTitleLoading.h"; sourceTree = "<group>"; };
+		ED9DCED41C1E8EC800718C43 /* UINavigationController+TCTitleLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TCTitleLoading.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 				ED05CB2A1C02F4B000FA8CC7 /* TYDotIndicatorView.m */,
 				ED05CB2F1C02F4E300FA8CC7 /* UIViewController+TCTitleLoading.h */,
 				ED05CB301C02F4E300FA8CC7 /* UIViewController+TCTitleLoading.m */,
+				ED9DCED31C1E8EC800718C43 /* UINavigationController+TCTitleLoading.h */,
+				ED9DCED41C1E8EC800718C43 /* UINavigationController+TCTitleLoading.m */,
 				ED05CB321C02F5A600FA8CC7 /* TCTitleLoadingManager.h */,
 				ED05CB331C02F5A600FA8CC7 /* TCTitleLoadingManager.m */,
 			);
@@ -183,6 +188,7 @@
 				ED5B90591C02F12600C491F8 /* AppDelegate.m in Sources */,
 				ED5B905C1C02F12600C491F8 /* FirstViewController.m in Sources */,
 				ED05CB2D1C02F4B000FA8CC7 /* TYDotIndicatorView.m in Sources */,
+				ED9DCED51C1E8EC800718C43 /* UINavigationController+TCTitleLoading.m in Sources */,
 				ED5B90561C02F12600C491F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

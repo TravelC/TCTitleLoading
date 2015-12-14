@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TCTitleLoading"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "This is a loading in the bottom of navigation bar title area."
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "5.0"
 
-  s.source       = { :git => "https://github.com/TravelC/TCTitleLoading.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/TravelC/TCTitleLoading.git", :tag => "0.0.3" }
 
   s.source_files  = "TCTitleLoading/TCTitleLoading/**/*.{h,m}"
   s.public_header_files = "TCTitleLoading/TCTitleLoading/**/*.h"
