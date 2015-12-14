@@ -9,7 +9,7 @@ Installation
 
 #### Cocoapod Method:-
 
-`pod 'TCTitleLoading', '~> 0.0.2'`
+`pod 'TCTitleLoading', '~> 0.0.3'`
 
 #### Source Code Method:-
 Add files in folder TCTitleLoading to your project.
