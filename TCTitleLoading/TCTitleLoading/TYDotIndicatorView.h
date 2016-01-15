@@ -8,16 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, TYDotIndicatorViewStyle)
-{
+typedef NS_ENUM (NSInteger, TYDotIndicatorViewStyle){
     TYDotIndicatorViewStyleSquare,
     TYDotIndicatorViewStyleRound,
     TYDotIndicatorViewStyleCircle
 };
+@protocol TYDotIndicatorViewDelegate <NSObject>
+
+@required
+- (void)tcUpdateFrame;
+
+@end
 
 @interface TYDotIndicatorView : UIView
 
 @property (nonatomic, assign) BOOL hidesWhenStopped;
+@property (nonatomic, weak) id <TYDotIndicatorViewDelegate> delegate;
 
 - (id)initWithFrame:(CGRect)frame
            dotStyle:(TYDotIndicatorViewStyle)style

@@ -2,14 +2,19 @@
 This is a loading in the bottom of navigation bar title area.
 This project is inspired by [XHLoadingNavigationItemTitleView](https://github.com/JackTeam/XHLoadingNavigationItemTitleView)
 
-![](http://travelchu.com/ImagesForProjects/TCTitleLoading.png)
+![](http://7xpujh.com1.z0.glb.clouddn.com/static/images/tctitleloading.png)
+
+Change Log
+==========================
+#### 0.0.4
+1. Support device rotation.
 
 Installation
 ==========================
 
 #### Cocoapod Method:-
 
-`pod 'TCTitleLoading', '~> 0.0.3'`
+`pod 'TCTitleLoading'`
 
 #### Source Code Method:-
 Add files in folder TCTitleLoading to your project.

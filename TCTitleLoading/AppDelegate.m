@@ -21,6 +21,9 @@
 
     //Set custom color for dots
     [TCTitleLoadingManager setDotColor:[UIColor orangeColor]];
+    //iOS特殊编程姿势，哈哈哈哈
+    
+
     return YES;
 }
 
